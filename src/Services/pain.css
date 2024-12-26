@@ -1,0 +1,35 @@
+.pain {
+    background-image: url("../assets/img/cta-bg.jpg");
+    background-attachment: fixed;
+    padding: 3rem 0;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 10px 10px 100px 50px #000;
+}
+.pain__wrapper {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pain__title {
+    font-size: 1.8rem;
+}
+.pain__text {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.pain__link {
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 0.3rem;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.pain__link:hover {
+    background-color: var(--praimary-color);
+    border-color: var(--praimary-color);
+    color: #000;
+}

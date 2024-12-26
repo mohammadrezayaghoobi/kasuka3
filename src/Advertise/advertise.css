@@ -1,0 +1,45 @@
+.advertise-container {
+    background-color: #fff;
+}
+.advertise-boxLimited {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.advertise-imageBox {
+    width: 50%;
+}
+.advertise-imageBox img {
+    width: 100%;
+    height: 100%;
+}
+.advertise-textBox {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Start TextBoxes */
+
+.textBox-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.textBox-icon{
+    color: #ffc451;
+    font-size: 3rem;
+}
+/* .textBox-orgIcon {}
+.textBox-texts {} */
+.texts-header {
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+.texts-text {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.75rem;
+}

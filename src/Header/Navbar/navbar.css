@@ -1,0 +1,22 @@
+/* .navbar {
+
+} */
+.navbar-list {
+    display: flex;
+    list-style: none;
+}
+/* .navbar-item {
+
+} */
+.navbar-link {
+    color: #fff;
+    display: inline-block;
+    padding: 8px 16px;
+    transition: all 250ms ease;
+}
+.navbar-link.active {
+    color: #ffc451;
+}
+.navbar-link:hover {
+    color: #ffc451;
+}

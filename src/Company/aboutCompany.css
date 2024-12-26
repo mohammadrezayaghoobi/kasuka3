@@ -1,0 +1,28 @@
+.company-container {
+    background-color: #fff;
+    padding: 60px 0;
+    color: #444;
+}
+.company-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 25px;
+}
+.company-details {
+    width: 50%;
+}
+.company-header {
+    font-size: 1.75rem;
+}
+.company-bigText {
+    text-align: justify;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+.company-picture {
+    width: 50%;
+}
+.picture-img {
+    width: 100%;
+}

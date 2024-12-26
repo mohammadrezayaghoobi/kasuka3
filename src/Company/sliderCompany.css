@@ -1,0 +1,39 @@
+.slider-company {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 0;
+}
+.company-imgSlider {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.company-pictureSlide {
+    filter: grayscale(1);
+    transition: all 300ms ease;
+    width: 95px;
+    height: 28px;
+}
+.company-pictureSlide:hover {
+    filter: grayscale(0);
+}
+.company-proccessBar {
+    display: flex;
+    gap: 10px;
+}
+.proccessBar-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d6d3cb;
+    display: inline-block;
+    cursor: pointer;
+}
+.proccessBar-circle.active {
+    background-color: #ffc451;
+}

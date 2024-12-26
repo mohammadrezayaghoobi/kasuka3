@@ -1,0 +1,57 @@
+.counts {
+    background-color: #fff;
+}
+.counts__wrapper {
+    display: flex;
+    gap: 2rem;
+    padding: 0 8rem;
+}
+.counts__picture {
+    width: 45%;
+    height: 100%;
+}
+.counts__img {
+    width: 100%;
+    object-fit: cover;
+}
+.counts__body {
+    width: 55%;
+}
+.counts__title {
+    font-size: 2rem;
+    color: #151515;
+}
+.counts__text {
+    font-size: 1rem;
+    color: #3b3b3b;
+}
+.counts__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+/* =========Counts-Box========= */
+.counts__box {
+    flex-basis: 15rem;
+    flex-shrink: 0;
+    margin-bottom: 3rem;
+}
+.counts__box-head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.counts__box-head svg {
+    fill: #ffc451;
+    font-size: 2.5rem;
+}
+.counts__counter {
+    font-size: 2rem;
+    color: #151515;
+}
+.counts__box-text {
+    font-size: 0.95rem;
+    color: #3b3b3b;
+}

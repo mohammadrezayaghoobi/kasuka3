@@ -1,0 +1,14 @@
+.text-fluid {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 25px 0;
+}
+.fluid-icon {
+    width: 24px;
+    height: 24px;
+
+}
+.fluid-text {
+    font-size: 1rem;
+}

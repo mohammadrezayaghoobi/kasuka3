@@ -1,0 +1,94 @@
+.Team {
+    background-color: #fff;
+    padding: 5rem 0;
+}
+.team__top {
+    margin-bottom: 2rem;
+}
+.team__top-text {
+    font-size: 0.75rem;
+    color: #aaa;
+    letter-spacing: 2px;
+    position: relative;
+}
+.team__top-text::after {
+    content: '';
+    position: absolute;
+    width: 8rem;
+    height: 1px;
+    opacity: 0.6;
+    background-color: #ffc451;
+    top: 50%;
+    right: 2.25rem;
+}
+.team__top-title {
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+}
+.team__bottom {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+/* .team-box {} */
+.team-box {
+    flex-basis: 20rem;
+}
+.team-box:hover .team-box__socialBox {
+    opacity: 1;
+    bottom: 1.5rem;
+}
+.team-box__top {
+    position: relative;
+    border-radius: 0.3rem 0.3rem 0 0;
+    overflow: hidden;
+}
+.team-box__socialBox {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 4rem;
+    bottom: 2.5rem;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.team-box__social {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.3rem;
+    transition: all 300ms ease;
+}
+.team-box__social:hover {
+    background-color: #ffc451;
+}
+.team-box__social svg {
+    color: #151515;
+    font-size: 1.2rem;
+}
+.team-box__img {
+    width: 100%;
+    height: 100%;
+}
+.team-box__bottom {
+    margin-top: 1rem;
+}
+.team-box__name {
+    font-size: 1.25rem;
+}
+.team-box__rank {
+    font-size: 0.75rem;
+    color: #aaa;
+}

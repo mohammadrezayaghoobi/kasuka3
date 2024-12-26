@@ -1,0 +1,127 @@
+.contactUs {
+    background-color: #fff;
+    padding: 3rem 0;
+}
+.contactUs__head {
+    margin-bottom: 2rem;
+}
+.contactUs__head-text {
+    font-size: 0.75rem;
+    color: #aaa;
+    letter-spacing: 2px;
+    position: relative;
+}
+.contactUs__head-text::after {
+    content: '';
+    position: absolute;
+    width: 8rem;
+    height: 1px;
+    opacity: 0.6;
+    background-color: #ffc451;
+    top: 50%;
+    right: 5.25rem;
+}
+.contactUs__head-title {
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+}
+
+
+
+
+.contactUs__form {
+    display: flex;
+    justify-content: space-between;
+}
+.contactUs__boxes {
+    flex-basis: 20rem;
+}
+.contactUs__formes {
+    flex-basis: 50rem;
+    text-align: center;
+    max-width: 50rem;
+}
+.contactUs__row-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.inp {
+    font-family: "irans";
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    transition: all 300ms ease;
+    outline: none;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.inp:focus {
+    border: 1px solid #ffc451;
+}
+/* .inp__name {} */
+/* .inp__email {} */
+.inp__subject {
+    margin-bottom: 1.5rem;
+}
+.contactUs__message {
+    font-family: "irans";
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    outline: none;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+    transition: all 300ms ease;
+    margin-bottom: 1.5rem;
+
+}
+.contactUs__message:focus {
+    border: 1px solid #ffc451;
+}
+.inp__submit {
+    text-align: center;
+    padding: 0.5rem 1.8rem;
+    color: #000;
+    background-color: #ffc451;
+    border-radius: 0.3rem;
+    border: none;
+    font-family: "irans-m";
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+
+.contactUs__box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.contactUs__box-icon {
+    background-color: #ffc451;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+}
+.contactUs__box-icon svg {
+    font-size: 1.5rem;
+    color: #363636;
+}
+/* .contactUs__box-text {} */
+.contactUs__box-title {
+    font-family: "irans-m";
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.contactUs__box-p {
+    font-family: "irans";
+    font-size: 0.8rem;
+    color: #363636;
+}

@@ -1,0 +1,164 @@
+/* Start Import Fonts from assets */
+@font-face {
+    font-family: "irans";
+    src: url("./assets/fonts/irsans.woff") format("woff");
+}
+@font-face {
+    font-family: "irans-m";
+    src: url("./assets/fonts/irsans-m.woff") format("woff");
+}
+/* Finish Import Fonts from assets */
+
+:root {
+    --praimary-color: #ffc451;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "irans";
+    direction: rtl;
+    margin-left: 0;
+}
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding-inline: 1rem;
+}
+#root {
+    background-image: url('./assets/img/hero-bg.jpg');
+    min-height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .counts__wrapper {
+        flex-direction: column;
+    }
+    .counts__picture,
+    .counts__body {
+        width: 100%;
+    }
+
+    .contactUs__form {
+        flex-direction: column;
+    }
+    .contactUs__boxes {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contactUs__formes {
+        max-width: 100%;
+        flex-basis: 0;
+    }
+
+
+    .footer__wrapper {
+        flex-wrap: wrap;
+    }
+    .footer__email  {
+        flex-basis: 35rem;
+        margin: 2rem auto 0;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .navbar {
+        display: none;
+    }
+    #about {
+        display: none;
+    }
+    .menu-icon svg{
+        display: block;
+    }
+    .header-boxs {
+        margin-top: 5rem;
+    }
+
+    .company-box {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .company-details,
+    .company-picture {
+        width: 100%;
+    }
+
+    .advertise-boxLimited {
+        flex-direction: column;
+    }
+    .advertise-imageBox,
+    .advertise-textBox {
+        width: 100%;
+    }
+
+    .servicesItem-container {
+        width: calc(50% - 20px);
+    }
+    .works-body__pictures {
+        justify-content: center;
+    }
+
+    .counts__boxes {
+        justify-content: center;
+    }
+
+    .team-carousel__wrapper {
+        padding: 0;
+    }
+
+
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header-boxs {
+        margin-top: 8rem;
+    }
+
+    .servicesItem-container {
+        width: calc(100% - 20px);
+    }
+
+    .counts__wrapper {
+        padding: 0;
+    }
+
+    .contactUs__boxes {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+    .footer__wrapper {
+        justify-content: center;
+        gap: 3rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .header-boxs {
+        margin-top: 20rem;
+    }
+}
